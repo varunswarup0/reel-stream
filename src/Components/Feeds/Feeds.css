@@ -1,0 +1,31 @@
+.feeds-video-list {
+	position: sticky;
+	margin-top: 1rem;
+	height: 88vh;
+	background-color: white;
+	box-shadow: 0 0 50px #ccc;
+	overflow: scroll;
+	scroll-snap-type: y mandatory;
+}
+
+.feeds-video-list::-webkit-scrollbar {
+	display: none;
+}
+
+#circular-loading svg {
+	transform: scale(3);
+}
+
+.feeds {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.video {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-bottom: 2rem;
+}

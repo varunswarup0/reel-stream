@@ -1,0 +1,44 @@
+.video-post {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 2px solid lightgray;
+}
+
+.video-container {
+	padding: 5px;
+	scroll-snap-align: start;
+}
+
+.avatar {
+	padding: 10px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+}
+
+.link {
+	text-decoration: none;
+	color: black;
+}
+
+video::-webkit-media-controls {
+	visibility: hidden;
+}
+
+video::-webkit-media-controls-enclosure {
+	visibility: visible;
+}
+
+.name {
+	margin: 0;
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+
+.post-date {
+	margin: 0;
+	padding: 0px;
+	font-size: 13px;
+}

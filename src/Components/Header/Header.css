@@ -1,0 +1,8 @@
+.banner {
+	display: flex;
+	margin-left: 15%;
+}
+
+.banner img {
+	width: 50%;
+}
